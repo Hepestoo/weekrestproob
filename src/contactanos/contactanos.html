@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Week</title>
+    <link rel="stylesheet" href="contactanos.css">
+    <link rel="icon" type="image/x-icon" href="https://clipground.com/images/restaurant-logo-png-4.png">
+</head>
+
+<body>
+<!--Menu-->
+    <header>
+
+        <div class="menu container">
+            <a href="#"><img src="https://clipground.com/images/restaurant-logo-png-4.png" class="logo" alt=""></a>
+            <input type="checkbox" id="menu">
+            <label for="menu"><img src="/src/images/menu.png" class="menu-icono" alt=""></label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="/Index.html">Inicio</a></li>
+                    <li><a href="/src/servicios/servicios.html">Servicios</a></li>
+                    <li><a href="Contactanos/contacto.html">Contactanos</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header-content container">
+
+            <div class="header-txt"><br><br><br>
+                <h1>¡Cuentanos tu experiencia!</h1>
+            </div>
+
+        </div>
+
+    </header>
+
+    <!--Secccion-->
+    <section class="Info">
+        <form action="https://formsubmit.co/adl.rivera@yavirac.edu.ec" method="POST"  class="mi-formulario">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="name" name="name" placeholder="Nombre"/>
+            <br>
+            <label for="apellido">Apellido</label>
+            <input type="text" id="lastname" name="lastname" placeholder="Apellido"/>
+            <br>
+            <label for="cuidad">Ciudad</label>
+            <input type="text" id="Ciudad" name="ciudad" placeholder="Ciudad"/>
+            <br>
+            <label for="sucursal">Sucursal</label>
+            <input type="text" id="Sucursal" name="sucursal" placeholder="Sucursal en que nos visitaste"/>
+            <br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Email"/>
+            <br>
+            <label for="comentario">Comentario</label>
+            <textarea rows="30" id="comentario" name="comentario" placeholder="Ingrese comentario"></textarea>
+            <br>
+            <button class="mi-boton" type="submit">Enviar</button>
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/src/contactanos/contactanos.html">
+            <input type="hidden" name="_captcha" value="false">
+        </form>
+        <br><br><hr>
+
+        <div class="info-content container">
+
+            <div class="info-txt">
+                <p>Sobre nosotros</p>
+                <h2>Informacion Importante</h2>
+
+                <div class="info-sec">
+
+                    <div class="info-1">
+                        <img src="https://cdn1.iconfinder.com/data/icons/nature-3/102/Environmental-3-1024.png" alt="">
+                        <div class="info-2">
+                            <h3>Consciencia ambiental</h3>
+                            <p>
+                                Ofrecemos platos deliciosos y respetuosos con el medio ambiente, 
+                                utilizando ingredientes locales y de temporada, 
+                                minimizando el desperdicio de alimentos y utilizando envases ecológicos                          
+                            </p>
+                        </div>
+                    </div>
+                    <div class="info-1">
+                        <img src="https://th.bing.com/th/id/R.eebc02f90257195b4663c85c3b99fa5c?rik=WEJFbIpcm0qd4w&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_555011.png&ehk=T9g8TL2C%2fXw2RYdPLLVmItkiTABW4l%2fILp1eDA%2betlo%3d&risl=&pid=ImgRaw&r=0" alt="">
+                        <div class="info-2">
+                            <h3>Sobre nuestros platos</h3>
+                            <p>
+                                Nuestros chefs preparan cada plato con atención al detalle, 
+                                utilizando técnicas de cocción que realzan los sabores naturales de los alimentos y presentan cada plato de manera atractiva.                        
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                
+            </div>
+
+            <div class="info-img">
+                <img src="https://www.restauranteambivium.com/wp-content/uploads/2021/01/restaurante-con-estrella-michelin-.png" alt="">
+            </div>
+
+        </div>
+    </section>
+    <br><br><br><br><br><hr>
+
+
+    <footer class="footer container">
+
+        <img class="logo-2" src="https://clipground.com/images/restaurant-logo-png-4.png" alt="">
+
+        <div class="links">
+            <h4>Horarios</h4>
+            <ul>
+                <li><a href="#">LUNES A SÁBADO: <br>12H30 A 23H00<br>
+                    DOMINGO: <br>12H30 A 16H30</a></li>
+                
+            </ul>
+        </div>
+
+        <div class="links">
+            <h4>reservar con:</h4>
+            <ul>
+                <li><a href="#">Realiza tu reserva de <br>manera rápida <br>y segura través de<br> nuestra App.</a></li>
+            </ul>
+        </div>
+
+        <div class="links">
+            <h4>Redes sociales</h4>
+            <div class="socials">
+                <a href="#">
+                    <div class="social">
+                        <img src="/src/images/s1.svg" alt="">
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="social">
+                        <img src="/src/images/s2.svg" alt="">
+
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="social">
+                        <img src="/src/images/s3.svg" alt="">
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="contactanos.js"></script>
+</body>
+</html>

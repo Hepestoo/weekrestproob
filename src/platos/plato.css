@@ -1,0 +1,98 @@
+body {
+  background-color: #f8f9fa; /* Color de fondo */
+  margin: 0; /* Eliminamos los márgenes predeterminados del body */
+  font-family: 'Arial', sans-serif; /* Usamos una fuente genérica para mejorar la legibilidad */
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  background-color: #ffffff; /* Agregamos un fondo blanco al menú para mayor contraste */
+  padding: 10px 20px; /* Añadimos un poco de espacio alrededor del menú */
+}
+
+.logo {
+  max-width: 200px; /* Limitamos el ancho máximo del logo */
+}
+
+.menu .navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0; /* Eliminamos el margen predeterminado de la lista */
+}
+
+.menu .navbar ul li {
+  position: relative;
+}
+
+.menu .navbar ul li a {
+  font-size: 18px;
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px;
+  transition: color 0.3s ease;
+}
+
+.menu .navbar ul li a:hover {
+  color: #333333;
+}
+
+#menu {
+  display: none;
+}
+
+.menu-icono {
+  width: 25px;
+  cursor: pointer;
+}
+
+.menu label {
+  cursor: pointer;
+  display: none;
+}
+
+.menu .container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  padding: 200px 0 150px 0;
+}
+
+.table-container {
+  margin-top: 50px;
+}
+
+.table {
+  width: 100%;
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.table td {
+  padding: 20px;
+}
+
+.menu-icono {
+  max-width: 30px;
+}
+
+/* Añade estilos adicionales según sea necesario para tu contenido */
